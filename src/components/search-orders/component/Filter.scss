@@ -1,0 +1,86 @@
+
+*div{
+    font-family: 'Inter', sans-serif;
+}
+
+.lineFil {
+    display: flex;
+    align-items: end;
+    justify-content: flex-start;
+    gap: 6px;
+}
+
+.basisFil {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.block {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: relative;
+}
+
+.labelFil {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 10px;
+}
+
+.InpFil {
+    position: relative;
+}
+
+.InpFil svg {
+    position: absolute;
+    top: 17px;
+    left: 15px;
+    padding-right: 6px;
+}
+
+.InpFil input {
+    display: flex;
+    width: 240px;
+    height: 33px;
+    padding: 8px 18px 8px 40px;
+    border-radius: 12px;
+    border: 1.6px solid var(---100, #ECEDEE);
+    background: var(---50, #FAFAFA);
+    justify-content: flex-start;
+}
+
+.mr-6{
+    margin-right: 6px;
+}
+.mr-14{
+    margin-right: 14px;
+}
+
+.form-control{
+    appearance: none;
+    display: flex;
+    height: 45px;
+    padding: 5px 28px 5px 18px;
+    align-items: center;
+    gap: 12px;
+    border-radius: 44px;
+    border: 1.6px solid var(---100, #ECEDEE);
+    background: var(---50, #FAFAFA);
+
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.arrowDown{
+    position: absolute;
+    top: 15px;
+    right: 10px;
+}

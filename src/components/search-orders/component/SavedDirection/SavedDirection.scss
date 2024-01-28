@@ -1,0 +1,33 @@
+
+.Direction {
+    display: flex;
+}
+
+.tittleSaved{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 14px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.btnSaved {
+    display: flex;
+    width: fit-content;
+    height: 40px;
+    margin-right: 6px;
+    padding: 5px 18px;
+    align-items: center;
+    gap: 12px;
+    border-radius: 44px;
+    border: 1.6px solid var(---100, #ECEDEE);
+    background: var(---50, #FAFAFA);
+    transition: 0.5s;
+}
+
+.btnSaved:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}

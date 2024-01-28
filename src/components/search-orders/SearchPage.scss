@@ -1,0 +1,35 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 14px;
+  }
+  
+  .tittle {
+    font-family: Inter, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  
+  .create-orders {
+    display: flex;
+    height: 54px;
+    padding: 5px 20px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 12px;
+    border: none;
+    color: #fff;
+    background: var(---1000, #c5115e);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  
+  .create-orders:hover {
+    cursor: pointer;
+  }
+  

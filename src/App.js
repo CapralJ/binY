@@ -1,23 +1,23 @@
-import logo from './logo.svg';
+import React from 'react';
+import {BrowserRouter as Router, Routes, Route, Navigate, useNavigate} from 'react-router-dom';
+import MenuComponent from './components/sidebar/MenuComponent';
 import './App.css';
+import SearchPage from './components/search-orders/SearchPage';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App">  
+      <Router>
+        <div style={{width: '100vw', backgroundColor: '#f4f6f9', position: 'relative'}}>
+          <MenuComponent />
+          <div style={{marginLeft: '65px', overflowY: 'hidden', padding: '24px'}}>
+            <Routes>
+              <Route exact path="/Search-orders" element={<SearchPage/>}></Route>
+            </Routes>
+          </div>
+        </div>
+       </Router>
+
     </div>
   );
 }
